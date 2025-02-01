@@ -1,16 +1,17 @@
 {
-    "name": "extension-verifier",
-    "version": "1.0.0",
-    "description": "Extension Verifier Website",
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js",
-        "dev": "nodemon server.js"
-    },
-    "dependencies": {
-        "express": "^4.17.1"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.15"
-    }
+  "name": "extension-verifier",
+  "version": "1.0.0",
+  "description": "Extension Verifier Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
